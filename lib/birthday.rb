@@ -9,5 +9,5 @@ def happy_birthday(birthday_kids)
 end
 
 def age_appropriate_birthday(birthday_kids)
-  birthday_kids.each {|key, value| puts "Happy Birthday #{key}! You are now #{value} years old!" if value <= 12 else puts "You are too old for this!"}
+  birthday_kids.each {|key, value| puts "Happy Birthday #{key}! You are now #{value} years old!" if value <= 12 else puts "You are too old for this."}
 end
